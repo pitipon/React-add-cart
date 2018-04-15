@@ -19,3 +19,5 @@ const Cart = ({ products, onRemove }) => (
 
     </div>
 )
+
+export default Cart

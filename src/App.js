@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Products, Cart } from '../components'
+import { Products, Cart } from './components'
 
 class App extends Component {
   state = {
@@ -40,13 +40,13 @@ class App extends Component {
 
   reduceBuy = () => id => this.changeBuy(id, -1)
 
-  increaseBuy = () => id => this.changeBuy(id, +1)
+  increaseBuy = () => id => {this.changeBuy(id, +1); console.log(id)}
 
   render() {
     return (
       <div className="container">
         <Products products={this.getAvailableProducts()}
-                  onAddTocart={this.increaseBuy()} />
+                  onAddToCart={this.increaseBuy()} />
 
         <Cart products={this.getProductsInCart()}
               onRemove={this.reduceBuy()} />

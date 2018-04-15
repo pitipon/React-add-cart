@@ -1,7 +1,10 @@
 import React from 'react'
 import Product from './Product'
 
-const Products = ({ products, onAddToCart }) => (
+const Products = ({ products, onAddToCart }) => {
+
+    // console.log(onAddToCart)
+return (
     <div>
         <ul className=''>
             <li className=''>Products</li>
@@ -19,6 +22,6 @@ const Products = ({ products, onAddToCart }) => (
             }
         </ul>
     </div>
-)
+)}
 
 export default Products
