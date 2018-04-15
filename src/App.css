@@ -1,2 +1,28 @@
 @import url("commons/styles/normalize.css");
 @import url("commons/styles/skeleton.css");
+
+ul.item {
+    list-style: none;
+    background-color: white;
+    
+}
+  
+li.item {
+    background-color: white;
+    border-radius: 3pt;
+    
+ 
+}
+
+.circle {
+    border: 0.5px solid #a0a0a0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.quantity {
+    margin-left: 10px;
+
+    color: #7a7a7a;
+}

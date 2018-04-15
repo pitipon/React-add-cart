@@ -5,14 +5,10 @@ import { Products, Cart } from './components'
 class App extends Component {
   state = {
     products: [
-      { id: 1, name: 'Product1', amount: 10, buy: 0},
-      { id: 2, name: 'Product2', amount: 11, buy: 0},
-      { id: 3, name: 'Product1', amount: 10, buy: 0},
-      { id: 4, name: 'Product2', amount: 11, buy: 0},
-      { id: 5, name: 'Product1', amount: 10, buy: 0},
-      { id: 6, name: 'Product2', amount: 11, buy: 0},
-      { id: 7, name: 'Product1', amount: 10, buy: 0},
-      { id: 8, name: 'Product2', amount: 11, buy: 0}
+      { id: 1, name: 'Product1', amount: 5, buy: 0},
+      { id: 2, name: 'Product2', amount: 5, buy: 0},
+      { id: 3, name: 'Product1', amount: 5, buy: 0},
+      { id: 4, name: 'Product2', amount: 5, buy: 0}
     ]
   }
 

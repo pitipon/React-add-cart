@@ -6,8 +6,8 @@ const Products = ({ products, onAddToCart }) => {
     // console.log(onAddToCart)
 return (
     <div>
-        <ul className=''>
-            <li className=''>Products</li>
+        <ul className='item'>
+            <li className=''><h5>Products</h5></li>
             {
                 products.map(
                     ({id, name, amount, buy}) => (

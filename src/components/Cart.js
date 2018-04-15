@@ -3,8 +3,8 @@ import Product from './Product'
 
 const Cart = ({ products, onRemove }) => (
     <div>
-        <ul className=''>
-            <li className=''>Cart</li>
+        <ul className='item'>
+            <li className=''><h5>Cart</h5></li>
             {
                 products.map( ({id, name, buy}) => (
                     <Product    key={id}
